@@ -19,7 +19,7 @@ const NewsPage = async ({
       </div>
 
       <div className="mt-12 px-12 lg:px-0">
-        <div>{query ? `Search for "${query}:"` : "All News:"}</div>
+        <div>{query ? `Search for "${query}:"` : 'All News:'}</div>
       </div>
 
       <div className="mt-12 px-4">
@@ -29,7 +29,7 @@ const NewsPage = async ({
               <BlogCard key={post?._id} post={post} />
             ))
           ) : (
-            <p>"No results."</p>
+            <p>No results.</p>
           )}
         </ul>
       </div>
