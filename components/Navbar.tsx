@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { AlignRight, Bitcoin } from "lucide-react";
+import { AlignRight } from "lucide-react";
 import { navlinks } from "./navlinks";
 import Link from "next/link";
 import { usePathname } from "next/navigation";

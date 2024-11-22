@@ -1,4 +1,3 @@
-import { BlogTypeCard } from "@/components/BlogCard";
 import { Button } from "@/components/ui/button";
 import { client } from "@/sanity/lib/client";
 import { BLOG_BY_ID_QUERY } from "@/sanity/schemaTypes/queries";
